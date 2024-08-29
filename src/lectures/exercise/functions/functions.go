@@ -19,6 +19,31 @@ package main
 
 import "fmt"
 
+func greeting(person string) {
+	fmt.Println("Hello",person);
+}
+
+func msg() string{
+	return "Hello"
+}
+
+func add(a int,b int,c int) int{
+	return a + b + c
+}
+
+func number() int{
+	return 5
+}
+func numbers() (int,int){
+	return 5,6
+}
+
 func main() {
+   greeting("Alice")
+   fmt.Println(msg())
+   result := add(number(),3,4)
+   fmt.Println(result)
+   number()
+   numbers()
 
 }
