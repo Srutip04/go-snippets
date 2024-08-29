@@ -23,7 +23,7 @@ func main() {
 	fmt.Println("fav color is",favColor)
     //* Store your birth year and age (in years) in two variables using
     //  compound assignment
-     birthYear,age := 2002,21
+     birthYear,age := 2002,22
 	 fmt.Println("Born in",birthYear,"age =",age,"years")
 //* Store your first & last initials in two variables using block assignment
      var(
@@ -38,4 +38,10 @@ func main() {
     var ageInDays int
 	ageInDays = 365 * age
 	fmt.Println("I'm",ageInDays,"days old")
+
+    a,b := 6,3
+	fmt.Println("Sum: ", a+b)
+	fmt.Println("Diff: ", a-b)
+	fmt.Println("Multiplication: ", a*b)
+	fmt.Println("Divison: ", a/b)
 }
